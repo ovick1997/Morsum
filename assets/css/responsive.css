@@ -1,0 +1,512 @@
+/*	Less Framework 4 with 16/24 type presets
+	by Md Shorov Abedin
+	License: http://all-techstory.blogspot.com	*/
+
+
+
+/*	Resets
+	------	*/
+
+    /*		Default Layout: 992px. 
+            Gutters: 24px.
+            Outer margins: 48px.
+            Leftover space for scrollbars @1024px: 32px.
+ 
+    */	
+     /*		Mobile Layout: 320px.
+            Gutters: 24px.
+            Outer margins: 34px.
+            Inherits styles from: Default Layout.
+    ---------------------------------------------
+    cols    1     2      3
+    px      68    160    252    */
+    @media only screen and (min-width:320px) and (max-width: 480px) {
+        
+        .contact {
+            display: none;
+        }
+        .container {
+            padding: 0px 10px;
+        }
+        .main-menu {
+            display: block;
+            padding-top: 25px;
+            text-align: center;
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main-slider {
+            text-align: center;
+        }
+        .hr {
+            margin: 0 auto;
+        }
+        .single-menu ul {
+            display: block;
+            margin: 2%;
+            padding: 0;
+        }
+        .single-menu ul li {
+            padding: 10px;
+        }
+        .search-box {
+            display: none;
+        }
+        .slider-content h4 {
+            font-size: 19px;
+            padding-top: 12px;
+        }
+        .slider-content h2 {
+            font-size: 30px;
+        }
+        .slider-content a {
+            padding: 15px 22px;
+            font-size: 14px; 
+        }
+        .slider {
+            background-attachment: scroll;
+        }
+        .service-wrapper {
+            display: block;
+            text-align: center;
+        }
+        .main-service-ceo{
+            display: none;
+        }
+        .service{
+            padding-bottom: 0;
+        }
+
+        .main-service-skill {
+            padding-top: 10px;
+        }
+        .flex-skill {
+            display: block;
+            text-align: center;
+        }
+        .register-area p {
+            font-size: 26px;
+        }
+        .testimonial-content h2 {
+            font-size: 32px;
+        }
+        .latest-work-content p {
+            padding: 19px 20px;
+            font-size: 15px;
+        }
+        .latest-work-img div {
+            display: flex;
+            padding: 0px 4px;
+        }
+        .feature-area {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .team-content h2 {
+            font-size: 42px;
+        }
+        .flex-team {
+            flex-direction: column;
+        }
+        .offer-content h2 {
+            font-size: 38px;
+        }
+        .offer-area {
+            display: block;
+        }
+        .offer-item {
+            margin-bottom: 10px;
+        }
+        .blogspot-content h2 {
+            font-size: 37px;
+        }
+        .blogspot-content p {
+            font-size: 14px;
+            padding: 8px 0px;
+        }
+        .flex-blogspot {
+            display: block;
+        }
+        .blogspot-item h4 {
+            text-align: center;
+        }
+        .blogspot-item {
+            text-align: center;
+        }
+        .blogspot-item #item-img{
+            width: 100%;
+        }
+        .writer span {
+            font-size: 12px;
+        }
+        .writer {
+            padding-bottom: 14px;
+        }
+        .company {
+            
+        }
+        .flex-company-logo img{
+            margin-right: 8px;
+        }
+        .flex-footer-top {
+            display: block;
+        }
+        .footer-item {
+            width: 100%;
+            text-align: center;
+            padding-bottom: 13px;
+        }
+        .footer-logo {
+            justify-content: center;
+            align-items: center;
+        }
+        .footer-item .p1 {
+            text-align: center;
+            padding: 10px;
+        }
+        .footer-social-icon ul {
+            justify-content: center;
+        }
+        .flex-footer-bottom p {
+            font-size: 12px;
+            line-height: 17px;
+        }
+        .team-f-area ul {
+
+            display: flex;
+            padding-bottom: 20px;
+            padding-right: 20%;
+            padding-left: 20%;
+            justify-content: space-between;
+        
+        }
+        .box-shadow {
+
+            box-shadow: none;
+        
+        }
+        
+        
+    }
+    
+    /*  Tablet Layout: 768px.*/
+    @media only screen and (min-width: 481px) and (max-width: 767px){
+        .contact {
+            display: none;
+        }
+
+        .container {
+            padding: 0px 20px;
+        }
+        .single-menu ul {
+            flex-direction: column;
+        }
+        .slider-content h4 {
+            font-size: 20px;
+        }
+        .slider-content h2 {
+            font-size: 75px;
+            line-height: 75px;
+        }
+        .slider-content a {
+            font-size: 14px;
+        }
+        .service-wrapper {
+            display: block;
+            text-align: center;
+        }
+        .service-item p {
+            padding-left: 10%;
+            padding-right: 10%;
+        
+        }
+        .main-service-ceo{
+            display: none;
+        }
+        .flex-skill {
+            display: block;
+            text-align: center;
+        }
+        .section-padding {
+
+            padding: 16px 0px 34px;
+        
+        }
+        .register-area p {
+            font-size: 30px;
+        }
+        .latest-work-img div {
+            display: flex;
+            padding: 0px 4px;
+        }
+        .feature-area {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .feature-item p {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        .team-f-area ul {
+
+            display: flex;
+            padding-bottom: 20px;
+            padding-right: 20%;
+            padding-left: 20%;
+            justify-content: space-between;
+        
+        }
+        .box-shadow {
+            box-shadow: none; 
+        }
+        .flex-team {
+            display: block;
+        }
+        .offer-area {
+            display: block;
+        }
+        .offer-item {
+            margin-bottom: 16px;
+        }
+        .flex-blogspot {
+            display: block;
+        }
+        .blogspot-item h4 {
+            text-align: center;
+        }
+        .blogspot-item {
+            text-align: center;
+            padding-left: 12px;
+            margin-bottom: 12px;
+        }
+        .writer {
+            justify-content: center;
+        }
+        .flex-company-logo img{
+            margin-right: 5%;
+        }
+        .flex-footer-top {
+            display: block;
+        }
+        .footer-top{
+            text-align: center;
+        }
+        .footer-item {
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        .footer-logo {
+            justify-content: center;
+        }
+        .footer-item .p1 {
+            text-align: center;
+            padding-right: 10%;
+            padding-left: 10%;
+        }
+        .footer-social-icon ul {
+            display: flex;
+            padding-left: 0;
+            justify-content: center;
+        }
+        .p2 {
+            padding-left: 10%;
+        }
+        .blogspot-item p {
+            padding-left: 5%;
+            padding-right: 5%;
+        
+        }
+
+    }
+  /*  Tablet Layout: 768px.
+            Gutters: 24px.
+            Outer margins: 28px.
+            Inherits styles from: Default Layout.
+    -----------------------------------------------------------------
+    cols    1     2      3      4      5      6      7      8
+    px      68    160    252    344    436    528    620    712    */
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        
+        .contact-item ul li a {
+            font-size: 14px;
+        }
+        .single-menu ul li {
+            padding: 10px 14px;
+        }
+        .single-menu ul li a {
+            font-size: 16px;
+            
+        }
+        .search-box {
+            display: none;
+        }
+        .slider-content h2 {
+            font-size: 70px;
+            line-height: 72px;
+        }
+        .slider-content a {
+            padding: 16px 22px;
+            font-size: 18px;
+        }
+        .service-item {
+            margin-left: 10px;
+        }
+        .service-ceo {
+            padding: 21px 43px 27px;
+        }
+        .service-ceo h2 {
+            font-size: 18px;
+            line-height: 32px;
+            padding-bottom: 5px;
+        }
+        .service-ceo p {
+            font-size: 12px;
+        }
+        .service-ceo strong{
+            font-weight: 700;
+        }
+        .service-ceo-logo img{
+            width: 100%;
+            margin-left: 10px;
+        }
+        .register-area p {
+            font-size: 29px;
+        }
+        .flex-team {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .offer-area {
+            display: block;
+        }
+        .offer-item {
+            margin-bottom: 25px;
+        }
+        .flex-blogspot {
+            display: block;
+        }
+        .blogspot-content p {
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+        .blogspot-item {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .blogspot-item h4 {
+            text-align: center;
+        }
+        .writer {
+            justify-content: center;
+        }
+        .flex-footer-top {
+            display: block;
+        }
+        .footer-item {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .p2 {
+            padding-right: 0px;
+        
+        }
+        .footer-logo {
+            justify-content: center;
+        }
+        .footer-item .p1 {
+
+            text-align: center;
+            padding-right: 10%;
+            padding-left: 10%;
+        
+        }
+        .footer-social-icon ul {
+            padding-left: 0px;
+            justify-content: center;
+        }
+        .flex-footer-bottom p {
+            font-size: 13px;
+            
+        }
+        .flex-company-logo img{
+
+            width: 122px;
+            height: 80px;
+        
+        }
+        .container {
+
+            padding: 0px 24px;
+        
+        }
+
+    }
+    
+   
+    @media only screen and (min-width: 768px) and (max-width: 845px){
+
+        .feature-item h2 {
+            line-height: 28px;
+        }
+    }
+    
+    
+    @media only screen and (min-width: 768px) and (max-width: 945px){
+        .service-ceo {
+            top: 40px;
+            
+        }
+        .flex-skill {
+            display: block;
+            text-align: center;
+        }
+        .skill-item {
+            padding-bottom: 12px;
+            margin-bottom: 25px;
+        
+        }
+
+
+        /* @media only screen and (min-width: 768px) and  (max-width: 940px){
+            
+
+        } */
+   
+    
+  
+    
+    
+    /*		Wide Mobile Layout: 480px.
+            Gutters: 24px.
+            Outer margins: 22px.
+            Inherits styles from: Default Layout, Mobile Layout.
+    ------------------------------------------------------------
+    cols    1     2      3      4      5
+    px      68    160    252    344    436    */
+    
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        
+        
+    
+    }
+    
+    
+    /*	Retina media query.
+        Overrides styles for devices with a 
+        device-pixel-ratio of 2+, such as iPhone 4.
+    -----------------------------------------------    */
+    
+    @media 
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-device-pixel-ratio: 2) {
+        
+        body {
+        
+    }

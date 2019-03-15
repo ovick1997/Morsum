@@ -1,0 +1,8 @@
+https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+https://css-tricks.com/the-shapes-of-css/
+https://daneden.github.io/animate.css/
+https://wowjs.uk/
+https://owlcarousel2.github.io/OwlCarousel2/demos/basic.html
+https://www.jssor.com/demos/presentation.slider
+https://www.w3schools.com/howto/default.asp
+https://jqueryui.com/draggable/
