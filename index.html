@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="assets/css/font.css"><!--Custom Font-->
     <link rel="stylesheet" href="assets/css/all.min.css"><!--fontawesome css-->
     <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="assets/css/style.css"><!-- Custom style  css -->
     <link rel="stylesheet" href="assets/css/responsive.css"><!-- Responsive style  css -->
     <title>PSD - 1</title>
 </head>
 <body>
     <!-- Header Section Start-->
+    <div class="desktop">
     <header>
         <div class="header-wrapper"><!-- Header Wrapper Start-->
             <div class="contact"><!-- Contact Start-->
@@ -33,7 +36,7 @@
                 </div><!-- logo end-->
                 <div class="single-level-menu"><!-- Navigation start-->
                     <nav class="single-menu">
-                        <ul class="">
+                        <ul>
                             <li class="active"><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Portfolio</a></li>
@@ -46,10 +49,28 @@
                 <div class="search-box"><!-- Search Box Start-->
                     <a href="#"><i class="fas fa-shopping-bag"></i></a>
                     <a href="#"><i class="fas fa-search"></i></a>
+                  
                 </div><!-- Search box End-->
+                <div class="responsive-menu">
+                    <a href="#" class="responsive-menu-icon"><i class="fas fa-bars"></i></a>
+                </div>
             </div> <!-- Main Menu End-->
         </div><!-- Container End-->
         </div><!-- Header Wrapper End-->
+<!-- Navigation start-->
+        <div class="responsive-navbar">
+            <nav class="single-navbar">
+                <ul>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Navigation End-->
     </header>
  <!-- Header Section End-->
    <!-- Slider Section Start  -->
@@ -186,18 +207,38 @@
             </div>
             <div class="latest-work-img">
                 <div class="latest-work-img-item wow slideInLeft slower">
-                    <img src="assets/images/work1.png" alt="">
-                    <img src="assets/images/work2.png" alt="">
-                    <img src="assets/images/work3.png" alt="">
-                    <img src="assets/images/work4.png" alt="">
-                    <img src="assets/images/work5.png" alt="">
+                    <a href="assets/images/work1.png" data-lightbox="roadtrip">
+                        <img src="assets/images/work1.png" alt="">
+                    </a>
+                    <a href="assets/images/work1.png" data-lightbox="roadtrip">
+                        <img src="assets/images/work2.png" alt="">
+                    </a>
+                    <a href="assets/images/work1.png" data-lightbox="roadtrip">
+                        <img src="assets/images/work3.png" alt="">
+                     </a>
+                    <a href="assets/images/work1.png" data-lightbox="roadtrip">
+                        <img src="assets/images/work4.png" alt="">
+                     </a>
+                     <a href="assets/images/work1.png" data-lightbox="roadtrip">
+                         <img src="assets/images/work5.png" alt="">
+                     </a>
                 </div>
                 <div class="latest-work-img-item wow slideInRight slower">
-                        <img src="assets/images/work6.png" alt="">
-                        <img src="assets/images/work7.png" alt="">
-                        <img src="assets/images/work8.png" alt="">
-                        <img src="assets/images/work9.png" alt="">
-                        <img src="assets/images/work10.png" alt="">
+                        <a href="assets/images/work6.png" data-lightbox="roadtrip">
+                            <img src="assets/images/work6.png" alt="">
+                        </a>
+                        <a href="assets/images/work7.png" data-lightbox="roadtrip">
+                            <img src="assets/images/work7.png" alt="">
+                        </a>
+                        <a href="assets/images/work8.png" data-lightbox="roadtrip">
+                            <img src="assets/images/work8.png" alt="">
+                         </a>
+                        <a href="assets/images/work9.png" data-lightbox="roadtrip">
+                            <img src="assets/images/work9.png" alt="">
+                         </a>
+                         <a href="assets/images/work10.png" data-lightbox="roadtrip">
+                             <img src="assets/images/work10.png" alt="">
+                         </a>
                 </div>
             </div>
         </div>
@@ -261,9 +302,17 @@
                     <div class="team-bg">
                         <img class="team-1" src="assets/images/team1.png" alt="">
                     </div>
-                    <div class="team-f-area">
+                    <div class="team-f-area box-shadow">
                         <p><strong>Richard Parks</strong> 
                             <span> CEO / COO</span></p>
+                            <div class="social-icon">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
                     </div>
                 </div><!-- Team Item Section End --> 
 
@@ -287,18 +336,34 @@
                     <div class="team-bg">
                         <img src="assets/images/team3.png" alt="">
                     </div>
-                    <div class="team-f-area">
+                    <div class="team-f-area box-shadow">
                         <p><strong>Oliver Huth</strong> 
                             <span> Sales & Marketing</span></p>
+                            <div class="social-icon">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
                     </div>
                 </div><!-- Team Item Section End -->
                 <div class="team-iteam"><!-- Team Item Section Start -->
                     <div class="team-bg">
                         <img src="assets/images/team4.png" alt="">
                     </div>
-                    <div class="team-f-area">
+                    <div class="team-f-area box-shadow">
                         <p><strong>Jury Margu</strong> 
                             <span> Developer</span></p>
+                            <div class="social-icon">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
                     
                     </div>
                 </div><!-- Team Item Section End -->
@@ -415,19 +480,31 @@
         </div><!-- Blogspot Area Section End -->
     </div><!-- Container Section End -->
 </section>
-<!-- Blog Post Section End -->
-<!-- Company Logo Section Start -->
-<section class="company section-padding">
+<!--Blog Post Section End -->
+ <!--Company Logo Section Start>-->
+ <section class="company section-padding">
     <div class="container"><!-- Container  Section Start -->
-        <div class="flex-company-logo"><!--Flex Company Logo Section Start -->
+        <div class="flex-company-logo owl-carousel owl-theme"><!--Flex Company Logo Section Start -->
             <img src="assets/images/kmn.png" alt="Logo">
-            <img src="assets/images/birdtech.png" alt="Logo">
-            <img src="assets/images/chainforce.png" alt="Logo">
+             <img src="assets/images/birdtech.png" alt="Logo">
             <img src="assets/images/creative.png" alt="Logo">
-            <img src="assets/images/next.png" alt="Logo">
-        </div><!--Flex Company Logo Section Start -->
+             <img src="assets/images/chainforce.png" alt="Logo">
+             <img src="assets/images/next.png" alt="Logo">
+            
+        </div><!--ompany Logo Section Start -->
     </div><!-- Container Section End -->
-</section>
+</section> 
+
+<!-- <div class="owl-carousel owl-theme">
+        <div class="item">
+            <h4> Lorem ipsum dolor sit amet consectetur adipisicing elit </h4>
+            <img src="assets/images/kmn.png" alt="Logo">
+        </div>
+        <div class="item"><h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4></div>
+        <div class="item"><h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4></div>
+        <div class="item"><h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4></div>
+        
+    </div> -->
 <!-- Company Logo Section End -->
 <!-- Footer  Section Start -->
 <footer class="footer section-padding">
@@ -488,15 +565,41 @@
     </div>
 </footer>
 <!-- Footer  Section End -->
-
+</div>
+<!-- <div class="mobile">
+    <p>Hi I am From Mobile</p>
+</div> -->
 
 
 
             <!-- fontawesome js -->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
 <script src="assets/js/all.min.js"></script>
 <script src="assets/js/wow.min.js"></script>
+<script src="assets/js/lightbox-plus-jquery.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
               <script>
               new WOW().init();
               </script>
+              
+<script>
+    $(document).ready(function(){
+        $('.responsive-menu-icon').click(function(){
+            
+            $('.responsive-navbar').toggleClass('res-icon-block');
+        });
+    });
+</script>
+<script>
+   var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:4,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true
+});
+</script>
 </body>
 </html>

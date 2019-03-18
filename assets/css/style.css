@@ -378,9 +378,15 @@ h1,h2,h3,h4,h5,h6{
 .latest-work-img div{
     width: 100%;
 }
-.latest-work-img div img {
+.latest-work-img .latest-work-img-item img {
     padding: 1px;
     width: 19%;
+    filter:grayscale(100%);
+	transition:1s;
+}
+.latest-work-img .latest-work-img-item img:hover{
+	filter:grayscale(0);
+	transform:scale(1.1);
 }
 /* =================> **Latest Work Css End** <============================*/
 /* =================> **Feature  Css Start|** <============================*/
@@ -457,6 +463,7 @@ h1,h2,h3,h4,h5,h6{
     font-family: Segoe UI;
     font-weight: 600;
     color: #707070;
+    padding-bottom: 10px;
 }
 .team-f-area ul {
     display: flex;
@@ -637,11 +644,13 @@ h1,h2,h3,h4,h5,h6{
     background: #f7f7f7;
 }
 .flex-company-logo {
-
     display: flex;
     justify-content: space-between;
     cursor: pointer;
-
+}
+.flex-company-logo img{
+    width: 200px !important;
+    height: 84px;
 }
 /* =================> **Company  Css End|** <============================*/
 /* =================> **Footer  Css Start|** <============================*/
@@ -790,3 +799,25 @@ h1,h2,h3,h4,h5,h6{
     color: #365ef4;
 }
 /* =================> **Footer  Css End|** <============================*/
+
+
+/*  responsive menu css */
+.responsive-menu-icon{
+    display: none;
+}
+.responsive-navbar{
+    display: none;
+}
+
+/* .mobile{
+    display: none;
+} */
+
+.social-icon{
+    display: none;
+    transition: 0.5s;
+}
+.team-iteam:hover .social-icon{
+    display: block;
+    transition: 1s;
+}
