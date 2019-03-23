@@ -1,5 +1,5 @@
 /* 
-* Project Name : Company
+* Project Name : Morsum
 * Project Author :Md Shorov Abedin
 * Project Start Date : 23/02/2019
 * All Section 
@@ -11,6 +11,7 @@
 */
 /* =================> **Base Css Start** <========================= */
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 body{
     margin: 0;
@@ -66,7 +67,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .logo h2 {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     color: #0f0f0f;
     font-family: Montserrat;
 }
@@ -80,7 +81,7 @@ h1,h2,h3,h4,h5,h6{
 .single-menu ul li a {
     color: #313131;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 300;
     font-family: 'Montserrat';
 }
 .single-menu ul li a:hover {
@@ -777,16 +778,17 @@ h1,h2,h3,h4,h5,h6{
     font-family: Work Sans;
     color: #fff;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .footer-bottom{
     padding-top: 50px;
 }
 .flex-footer-bottom {
-    display: flex;
-    justify-content: space-between;
-}
 
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
 .flex-footer-bottom p {
     font-family: 'Work Sans';
     font-size: 15px;

@@ -6,3 +6,6 @@ https://owlcarousel2.github.io/OwlCarousel2/demos/basic.html
 https://www.jssor.com/demos/presentation.slider
 https://www.w3schools.com/howto/default.asp
 https://jqueryui.com/draggable/
+https://codemyui.com/simple-accordion-tab/
+https://animejs.com/
+https://www.sitepoint.com/our-top-9-animation-libraries/

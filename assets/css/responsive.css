@@ -187,9 +187,23 @@
         .footer-social-icon ul {
             justify-content: center;
         }
+        .footer-bottom {
+            padding-right: 60px; 
+        }
         .flex-footer-bottom p {
             font-size: 12px;
             line-height: 17px;
+        }
+        .flex-footer-bottom {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-gap: 13px;
+        
+        }
+        .flex-footer-bottom img {
+            cursor: pointer;
+            width: 198px;
+            height: 29px;
         }
         .team-f-area ul {
             display: flex;
@@ -230,19 +244,20 @@
             display: block !important;
         }
         .res-icon-block ul{}
-        .res-icon-block ul li{}
+        .res-icon-block ul li {
+            padding: 3px 0px;
+        }
         .res-icon-block ul li a {
             color: #313131;
             font-weight: 500;
             line-height: 26px;
+            font-family: Montserrat;
+            font-weight: 300;
         }
-        /* .desktop{
-            display: none;
+        .res-icon-block ul li a:hover{
+            color: #08b5f9;
+            transition: all 0.5s ease-in-out;
         }
-        .mobile{
-            display: block;
-        } */
-
         
     }
     
@@ -406,11 +421,11 @@
             height: 47px;
             padding-top: 25px;
         }
-        /* responsive menu css */
-        .responsive-menu-icon {
+         /* responsive menu css */
+         .responsive-menu-icon{
             display: block;
             border: 1px solid #dddd;
-            padding: 7px 10px;
+            padding: 10px;
             color: #000;
         }
         .single-menu{
@@ -419,10 +434,20 @@
         .res-icon-block{
             display: block !important;
         }
+        .res-icon-block ul{}
+        .res-icon-block ul li {
+            padding: 3px 0px;
+        }
         .res-icon-block ul li a {
             color: #313131;
             font-weight: 500;
             line-height: 26px;
+            font-family: Montserrat;
+            font-weight: 300;
+        }
+        .res-icon-block ul li a:hover{
+            color: #08b5f9;
+            transition: all 0.5s ease-in-out;
         }
 
     }
