@@ -602,7 +602,8 @@ h1,h2,h3,h4,h5,h6{
         padding-left: 12px;
      
 }
-
+.blogspot-item img{}
+.blogspot-item img:hover{}
 .blogspot-item h4 {
     font-family: 'Montserrat';
     text-align: start;
@@ -650,8 +651,8 @@ h1,h2,h3,h4,h5,h6{
     cursor: pointer;
 }
 .flex-company-logo img{
-    width: 200px !important;
-    height: 84px;
+    width: 171px !important;
+    height: 80px;
 }
 /* =================> **Company  Css End|** <============================*/
 /* =================> **Footer  Css Start|** <============================*/
@@ -734,6 +735,14 @@ h1,h2,h3,h4,h5,h6{
 
     padding-top: 20px;
 
+}
+.gallery-img {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.gallery-img img {
+    width: 92%;
+    height: 90%;
 }
 .footer-social-icon ul li {
 

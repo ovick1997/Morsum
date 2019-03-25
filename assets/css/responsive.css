@@ -165,9 +165,7 @@
         .company {
             width: 100%;
         }
-        .flex-company-logo img{
-            margin-right: 8px;
-        }
+        
         .flex-footer-top {
             display: block;
         }
@@ -220,15 +218,19 @@
             box-shadow: none;
         }
         .flex-company-logo img{
-            width: 80px !important;
-            height: 51px;
-            padding-top: 25px;
+            width: 67px !important;
+            height: 42px;
+            padding-top: 5px;
+            margin-right: 8px;
         }
         .company {
             width: 100%;
             background: #f7f7f7;
             padding-top: 35px;
             padding-bottom: 16px;
+        }
+        .gallery-img {
+            padding-bottom: 25px;
         }
         /* responsive menu css */
         .responsive-menu-icon{
@@ -368,9 +370,7 @@
         .writer {
             justify-content: center;
         }
-        .flex-company-logo img{
-            margin-right: 5%;
-        }
+        
         .flex-footer-top {
             display: block;
         }
@@ -417,9 +417,13 @@
         }
 
         .flex-company-logo img{
-            width: 111px !important;
-            height: 47px;
+            width: 90px !important;
+            height: 44px;
             padding-top: 25px;
+            margin-right: 5%;
+        }
+        .gallery-img {
+            padding-bottom: 25px;
         }
          /* responsive menu css */
          .responsive-menu-icon{
